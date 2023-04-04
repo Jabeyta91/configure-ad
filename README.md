@@ -40,10 +40,10 @@ I start by creating two virtual machines in Azure one as the domain controller t
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pTMuxY9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip x ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next I open client 1 virtual machine by copying the public IP address and opening it through remote desktop connection. From there I open the command line and start a perpectual ping to my other virtual machine called DC1 using DC1 public IP address. That reply kept coming back "timed out" because I had to open my virtual machine DC1 in remote desktop and enable two rules inside DC1 firewall wall. Remeber ICMPV4 protocol is the protocl ping uses. This is all to ensure connectivity between the client and domain controller. 
 </p>
 <br />
 
