@@ -32,10 +32,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/y6QoC74.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I start by creating two virtual machines in Azure one as the domain controller the other as client one. Client one will be used to connect to my domain controller. Similiar to being in college and how all their computers use the same domain controller so no matter what computer your using your login connects you to their network. My virtual machine for my domain controller has a dynamic IP address so by clicking on my virtual machine DC1, then in settings click networking, network interface, IP configurations im then prompted to change my IP from dynamic to static so my IP adress does not change.
 </p>
 <br />
 
