@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/y6QoC74.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I start by creating two virtual machines in Azure one as the domain controller the other as client one. Client one will be used to connect to my domain controller. Similiar to being in college and how all their computers use the same domain controller so no matter what computer your using your login connects you to their network. My virtual machine for my domain controller has a dynamic IP address so by clicking on my virtual machine DC1, then in settings click networking, network interface, IP configurations im then prompted to change my IP from dynamic to static so my IP adress does not change.
+I start by creating two virtual machines in Azure one as the domain controller the other as client one. Client one will be used to connect to my domain controller. Similiar to being in college and how all their computers use the same domain controller so no matter what computer your using your login connects you to their network. My virtual machine for my domain controller has a dynamic IP address so by clicking on my virtual machine DC1, then in settings click networking, network interface, IP configurations im then prompted to change my IP from dynamic to static so my IP adress does not change. From here as prompted in the picture ill check both vortual machines to be sure their on the same network and subnet.
 </p>
 <br />
 
