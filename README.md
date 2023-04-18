@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create 2 virtual machines, 1 running windows 10, another running windows server.
+- Install active directory services.
+- Domain changed to static, and run both virtual machines on custom DNS server.
+- Using a script in powershell create several different users on same domain.
 
 <h2>Deployment and Configuration Steps</h2>
 
