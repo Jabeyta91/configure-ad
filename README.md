@@ -48,9 +48,9 @@ Next I open client 1 virtual machine by copying the public IP address and openin
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kq7cWLq.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Then my DC1  virtual machine is running on windows server not windows 10 so I can acces server manager within my DC1 connection. From there I begin to install Active directory by going to "add roles adn features" within server manager and follow the prompt to install. After installation I had to re open DC1 through remote desktop using my new login created for my active directory because it is now a domain controller. After successful login my DC1 connection is back online i created a couple organizational units inside active directory and created a administration user.  
 </p>
 <br />
