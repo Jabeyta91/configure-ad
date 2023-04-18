@@ -54,3 +54,11 @@ Next I open client 1 virtual machine by copying the public IP address and openin
 Then my DC1  virtual machine is running on windows server not windows 10 so I can acces server manager within my DC1 connection. From there I begin to install Active directory by going to "add roles adn features" within server manager and follow the prompt to install. After installation I had to re open DC1 through remote desktop using my new login created for my active directory because it is now a domain controller. After successful login my DC1 connection is back online i created a couple organizational units inside active directory and created a administration user.  
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/y6QoC74.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I start by creating two virtual machines in Azure one as the domain controller the other as client one. Client one will be used to connect to my domain controller. Similiar to being in college and how all their computers use the same domain controller so no matter what computer your using your login connects you to their network. My virtual machine for my domain controller has a dynamic IP address so by clicking on my virtual machine DC1, then in settings click networking, network interface, IP configurations im then prompted to change my IP from dynamic to static so my IP adress does not change. From here as prompted in the picture ill check both vortual machines to be sure their on the same network and subnet.
+</p>
+<br />
